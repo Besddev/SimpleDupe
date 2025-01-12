@@ -1,0 +1,11 @@
+name: SimpleDupe
+version: '1.0'
+main: site.besd.simpleDupe.SimpleDupe
+api-version: '1.21'
+authors: [ Besd ]
+description: Simple Dupe Plugin /dupe
+website: besd.site
+commands:
+  dupe:
+    description: Dupe current item in hand
+    permission: dupe.use
